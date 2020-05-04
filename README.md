@@ -62,21 +62,32 @@ repository.
      ``` 
      http://192.168.40.130:2000/
      ```
-     (It will give you index file which is written in php.)
+     (It will give you index file which shows you are conneted to your database server & it will look like this.)
+     <p align ="center">
+     <img src="screenshots of project/at 2000 port (2).png" width="500" height="300" style="text-align:center">
+     </p>
      
  2. If you will type 
  ```
        http://192.168.40.130:2000/home.html
  ```
-   (It will give you home login page.)
+   (It will give you home login page, just added for your reference , you can create more pages like this & deploy your website in container.)
+   <p align="center">
+   <img src="screenshots of project/at 2000(home.html).png" width="500" height="300" style="text-align:center">
+   </p>
+   
    
  3. Now for accessing phpmyadmin for managing mysql database write this url:
    ``` 
    http://192.168.40.130:7000/
+   
    ```
+  <p align="center">
+   <img src="screenshots of project/at 7000 port.png" width="500" height="300" align="middle">
+ </p>
+   
    
  - Note : here 2000 & 7000 are port no. that should be free in your system if they are not then you can change by going inside the **docker-compose.yml** file
- - I added **screenshot** of output pages in  screenshots of project folder you can see from there.
  ### Step 5:
   - Now create your own web pages & put them in **html** folder.
   - Now it will be accessible from browser at 2000 port .
